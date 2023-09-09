@@ -1,0 +1,36 @@
+﻿{
+  "message": {
+    "header": {
+      "status_code": 200,
+      "execute_time": 0.076116800308228
+    },
+    "body": {
+      "artist": {
+        "artist_id": 118,
+        "artist_name": "Queen",
+        "artist_name_translation_list": [],
+        "artist_comment": "",
+        "artist_country": "",
+        "artist_alias_list": [
+          {
+            "artist_alias": "クイーン"
+          },
+          {
+            "artist_alias": "Queen + Adam Lambert"
+          }
+        ],
+        "artist_rating": 77,
+        "artist_twitter_url": "",
+        "artist_credits": {
+          "artist_list": []
+        },
+        "restricted": 0,
+        "updated_time": "2015-12-16T15:50:53Z",
+        "begin_date_year": "",
+        "begin_date": "0000-00-00",
+        "end_date_year": "",
+        "end_date": "0000-00-00"
+      }
+    }
+  }
+}
