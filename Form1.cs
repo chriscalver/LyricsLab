@@ -15,7 +15,6 @@ namespace LyricsLab
         private void Form1_Load(object sender, EventArgs e)
         {
 
-
             HttpClient httpClient = new HttpClient();
             HttpRequestHeaders requestHeaders = httpClient.DefaultRequestHeaders;
             // requestHeaders.Add("Accept", "applicationjson");
@@ -29,12 +28,11 @@ namespace LyricsLab
 
             Root deserialized = JsonConvert.DeserializeObject<Root>(data);
 
-            //txtOutput2.Text = data;
+            txtOutput2.Text = data;
             //lbldriver1.Text = deserialized.MRData.DriverTable.Drivers[0].familyName;
-             txtOutput2.Text = deserialized.message.header.status_code.ToString();
+            // txtOutput2.Text = deserialized.message.header.status_code.ToString();
 
             httpClient.Dispose();
-
 
 
         }
